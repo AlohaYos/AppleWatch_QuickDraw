@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF570F701AC6598B00D700BD /* Settings-Watch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF570F6F1AC6598B00D700BD /* Settings-Watch.bundle */; };
+		FF84498E1AC5438D00B418A5 /* ShareData.m in Sources */ = {isa = PBXBuildFile; fileRef = FF84498D1AC5438D00B418A5 /* ShareData.m */; };
+		FF84498F1AC5438D00B418A5 /* ShareData.m in Sources */ = {isa = PBXBuildFile; fileRef = FF84498D1AC5438D00B418A5 /* ShareData.m */; };
+		FF8449921AC548C500B418A5 /* TimeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8449911AC548C500B418A5 /* TimeTableCell.m */; };
+		FF8449931AC548C500B418A5 /* TimeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8449911AC548C500B418A5 /* TimeTableCell.m */; };
+		FFBF05B41AC4BD3C00A78FCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF05B31AC4BD3C00A78FCD /* main.m */; };
+		FFBF05B71AC4BD3C00A78FCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF05B61AC4BD3C00A78FCD /* AppDelegate.m */; };
+		FFBF05BA1AC4BD3C00A78FCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF05B91AC4BD3C00A78FCD /* ViewController.m */; };
+		FFBF05BD1AC4BD3C00A78FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBF05BB1AC4BD3C00A78FCD /* Main.storyboard */; };
+		FFBF05BF1AC4BD3C00A78FCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBF05BE1AC4BD3C00A78FCD /* Images.xcassets */; };
+		FFBF05C21AC4BD3C00A78FCD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBF05C01AC4BD3C00A78FCD /* LaunchScreen.xib */; };
+		FFBF05CE1AC4BD3C00A78FCD /* QuickDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF05CD1AC4BD3C00A78FCD /* QuickDrawTests.m */; };
+		FFBF05E11AC4BD4900A78FCD /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF05E01AC4BD4900A78FCD /* InterfaceController.m */; };
+		FFBF05E31AC4BD4900A78FCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBF05E21AC4BD4900A78FCD /* Images.xcassets */; };
+		FFBF05E71AC4BD4A00A78FCD /* QuickDraw WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FFBF05E61AC4BD4A00A78FCD /* QuickDraw WatchKit App.app */; };
+		FFBF05EF1AC4BD4A00A78FCD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBF05ED1AC4BD4A00A78FCD /* Interface.storyboard */; };
+		FFBF05F11AC4BD4A00A78FCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBF05F01AC4BD4A00A78FCD /* Images.xcassets */; };
+		FFBF05F41AC4BD4A00A78FCD /* QuickDraw WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FFBF05DB1AC4BD4900A78FCD /* QuickDraw WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFBF05C81AC4BD3C00A78FCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFBF05A61AC4BD3C00A78FCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBF05AD1AC4BD3C00A78FCD;
+			remoteInfo = QuickDraw;
+		};
+		FFBF05E81AC4BD4A00A78FCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFBF05A61AC4BD3C00A78FCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBF05E51AC4BD4A00A78FCD;
+			remoteInfo = "QuickDraw WatchKit App";
+		};
+		FFBF05F21AC4BD4A00A78FCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFBF05A61AC4BD3C00A78FCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBF05DA1AC4BD4900A78FCD;
+			remoteInfo = "QuickDraw WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFBF05FB1AC4BD4A00A78FCD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FFBF05F41AC4BD4A00A78FCD /* QuickDraw WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF570F6F1AC6598B00D700BD /* Settings-Watch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "Settings-Watch.bundle"; sourceTree = "<group>"; };
+		FF84498A1AC541F400B418A5 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Common.h; path = QuickDraw/Common.h; sourceTree = "<group>"; };
+		FF84498C1AC5438D00B418A5 /* ShareData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareData.h; path = ShareData/ShareData.h; sourceTree = "<group>"; };
+		FF84498D1AC5438D00B418A5 /* ShareData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareData.m; path = ShareData/ShareData.m; sourceTree = "<group>"; };
+		FF8449901AC548C500B418A5 /* TimeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTableCell.h; sourceTree = "<group>"; };
+		FF8449911AC548C500B418A5 /* TimeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeTableCell.m; sourceTree = "<group>"; };
+		FFBF05AE1AC4BD3C00A78FCD /* QuickDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBF05B21AC4BD3C00A78FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBF05B31AC4BD3C00A78FCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFBF05B51AC4BD3C00A78FCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFBF05B61AC4BD3C00A78FCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFBF05B81AC4BD3C00A78FCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFBF05B91AC4BD3C00A78FCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFBF05BC1AC4BD3C00A78FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFBF05BE1AC4BD3C00A78FCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFBF05C11AC4BD3C00A78FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFBF05C71AC4BD3C00A78FCD /* QuickDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBF05CC1AC4BD3C00A78FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBF05CD1AC4BD3C00A78FCD /* QuickDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickDrawTests.m; sourceTree = "<group>"; };
+		FFBF05DB1AC4BD4900A78FCD /* QuickDraw WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "QuickDraw WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBF05DE1AC4BD4900A78FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBF05DF1AC4BD4900A78FCD /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		FFBF05E01AC4BD4900A78FCD /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		FFBF05E21AC4BD4900A78FCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFBF05E61AC4BD4A00A78FCD /* QuickDraw WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuickDraw WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBF05EC1AC4BD4A00A78FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBF05EE1AC4BD4A00A78FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FFBF05F01AC4BD4A00A78FCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFBF05FC1AC4C1EB00A78FCD /* QuickDraw.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = QuickDraw.entitlements; sourceTree = "<group>"; };
+		FFBF05FD1AC4C37200A78FCD /* QuickDraw WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "QuickDraw WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFBF05AB1AC4BD3C00A78FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBF05C41AC4BD3C00A78FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBF05D81AC4BD4900A78FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF84498B1AC5435D00B418A5 /* ShareData */ = {
+			isa = PBXGroup;
+			children = (
+				FF84498A1AC541F400B418A5 /* Common.h */,
+				FF84498C1AC5438D00B418A5 /* ShareData.h */,
+				FF84498D1AC5438D00B418A5 /* ShareData.m */,
+			);
+			name = ShareData;
+			sourceTree = "<group>";
+		};
+		FFBF05A51AC4BD3C00A78FCD = {
+			isa = PBXGroup;
+			children = (
+				FF84498B1AC5435D00B418A5 /* ShareData */,
+				FFBF05B01AC4BD3C00A78FCD /* QuickDraw */,
+				FFBF05CA1AC4BD3C00A78FCD /* QuickDrawTests */,
+				FFBF05DC1AC4BD4900A78FCD /* QuickDraw WatchKit Extension */,
+				FFBF05EA1AC4BD4A00A78FCD /* QuickDraw WatchKit App */,
+				FFBF05AF1AC4BD3C00A78FCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFBF05AF1AC4BD3C00A78FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF05AE1AC4BD3C00A78FCD /* QuickDraw.app */,
+				FFBF05C71AC4BD3C00A78FCD /* QuickDrawTests.xctest */,
+				FFBF05DB1AC4BD4900A78FCD /* QuickDraw WatchKit Extension.appex */,
+				FFBF05E61AC4BD4A00A78FCD /* QuickDraw WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFBF05B01AC4BD3C00A78FCD /* QuickDraw */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF05FC1AC4C1EB00A78FCD /* QuickDraw.entitlements */,
+				FFBF05B51AC4BD3C00A78FCD /* AppDelegate.h */,
+				FFBF05B61AC4BD3C00A78FCD /* AppDelegate.m */,
+				FFBF05B81AC4BD3C00A78FCD /* ViewController.h */,
+				FFBF05B91AC4BD3C00A78FCD /* ViewController.m */,
+				FFBF05BB1AC4BD3C00A78FCD /* Main.storyboard */,
+				FFBF05BE1AC4BD3C00A78FCD /* Images.xcassets */,
+				FFBF05C01AC4BD3C00A78FCD /* LaunchScreen.xib */,
+				FFBF05B11AC4BD3C00A78FCD /* Supporting Files */,
+			);
+			path = QuickDraw;
+			sourceTree = "<group>";
+		};
+		FFBF05B11AC4BD3C00A78FCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF05B21AC4BD3C00A78FCD /* Info.plist */,
+				FFBF05B31AC4BD3C00A78FCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFBF05CA1AC4BD3C00A78FCD /* QuickDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF05CD1AC4BD3C00A78FCD /* QuickDrawTests.m */,
+				FFBF05CB1AC4BD3C00A78FCD /* Supporting Files */,
+			);
+			path = QuickDrawTests;
+			sourceTree = "<group>";
+		};
+		FFBF05CB1AC4BD3C00A78FCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF05CC1AC4BD3C00A78FCD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFBF05DC1AC4BD4900A78FCD /* QuickDraw WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF05FD1AC4C37200A78FCD /* QuickDraw WatchKit Extension.entitlements */,
+				FFBF05DF1AC4BD4900A78FCD /* InterfaceController.h */,
+				FFBF05E01AC4BD4900A78FCD /* InterfaceController.m */,
+				FF570F6F1AC6598B00D700BD /* Settings-Watch.bundle */,
+				FF8449901AC548C500B418A5 /* TimeTableCell.h */,
+				FF8449911AC548C500B418A5 /* TimeTableCell.m */,
+				FFBF05E21AC4BD4900A78FCD /* Images.xcassets */,
+				FFBF05DD1AC4BD4900A78FCD /* Supporting Files */,
+			);
+			path = "QuickDraw WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FFBF05DD1AC4BD4900A78FCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF05DE1AC4BD4900A78FCD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFBF05EA1AC4BD4A00A78FCD /* QuickDraw WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF05ED1AC4BD4A00A78FCD /* Interface.storyboard */,
+				FFBF05F01AC4BD4A00A78FCD /* Images.xcassets */,
+				FFBF05EB1AC4BD4A00A78FCD /* Supporting Files */,
+			);
+			path = "QuickDraw WatchKit App";
+			sourceTree = "<group>";
+		};
+		FFBF05EB1AC4BD4A00A78FCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF05EC1AC4BD4A00A78FCD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFBF05AD1AC4BD3C00A78FCD /* QuickDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBF05D11AC4BD3C00A78FCD /* Build configuration list for PBXNativeTarget "QuickDraw" */;
+			buildPhases = (
+				FFBF05AA1AC4BD3C00A78FCD /* Sources */,
+				FFBF05AB1AC4BD3C00A78FCD /* Frameworks */,
+				FFBF05AC1AC4BD3C00A78FCD /* Resources */,
+				FFBF05FB1AC4BD4A00A78FCD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFBF05F31AC4BD4A00A78FCD /* PBXTargetDependency */,
+			);
+			name = QuickDraw;
+			productName = QuickDraw;
+			productReference = FFBF05AE1AC4BD3C00A78FCD /* QuickDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFBF05C61AC4BD3C00A78FCD /* QuickDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBF05D41AC4BD3C00A78FCD /* Build configuration list for PBXNativeTarget "QuickDrawTests" */;
+			buildPhases = (
+				FFBF05C31AC4BD3C00A78FCD /* Sources */,
+				FFBF05C41AC4BD3C00A78FCD /* Frameworks */,
+				FFBF05C51AC4BD3C00A78FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFBF05C91AC4BD3C00A78FCD /* PBXTargetDependency */,
+			);
+			name = QuickDrawTests;
+			productName = QuickDrawTests;
+			productReference = FFBF05C71AC4BD3C00A78FCD /* QuickDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFBF05DA1AC4BD4900A78FCD /* QuickDraw WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBF05F81AC4BD4A00A78FCD /* Build configuration list for PBXNativeTarget "QuickDraw WatchKit Extension" */;
+			buildPhases = (
+				FFBF05D71AC4BD4900A78FCD /* Sources */,
+				FFBF05D81AC4BD4900A78FCD /* Frameworks */,
+				FFBF05D91AC4BD4900A78FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFBF05E91AC4BD4A00A78FCD /* PBXTargetDependency */,
+			);
+			name = "QuickDraw WatchKit Extension";
+			productName = "QuickDraw WatchKit Extension";
+			productReference = FFBF05DB1AC4BD4900A78FCD /* QuickDraw WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FFBF05E51AC4BD4A00A78FCD /* QuickDraw WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBF05F51AC4BD4A00A78FCD /* Build configuration list for PBXNativeTarget "QuickDraw WatchKit App" */;
+			buildPhases = (
+				FFBF05E41AC4BD4A00A78FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuickDraw WatchKit App";
+			productName = "QuickDraw WatchKit App";
+			productReference = FFBF05E61AC4BD4A00A78FCD /* QuickDraw WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFBF05A61AC4BD3C00A78FCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Newton Japan";
+				TargetAttributes = {
+					FFBF05AD1AC4BD3C00A78FCD = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = P8RDT88SUS;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					FFBF05C61AC4BD3C00A78FCD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FFBF05AD1AC4BD3C00A78FCD;
+					};
+					FFBF05DA1AC4BD4900A78FCD = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = P8RDT88SUS;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					FFBF05E51AC4BD4A00A78FCD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FFBF05A91AC4BD3C00A78FCD /* Build configuration list for PBXProject "QuickDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFBF05A51AC4BD3C00A78FCD;
+			productRefGroup = FFBF05AF1AC4BD3C00A78FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFBF05AD1AC4BD3C00A78FCD /* QuickDraw */,
+				FFBF05C61AC4BD3C00A78FCD /* QuickDrawTests */,
+				FFBF05DA1AC4BD4900A78FCD /* QuickDraw WatchKit Extension */,
+				FFBF05E51AC4BD4A00A78FCD /* QuickDraw WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFBF05AC1AC4BD3C00A78FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBF05BD1AC4BD3C00A78FCD /* Main.storyboard in Resources */,
+				FFBF05C21AC4BD3C00A78FCD /* LaunchScreen.xib in Resources */,
+				FF570F701AC6598B00D700BD /* Settings-Watch.bundle in Resources */,
+				FFBF05BF1AC4BD3C00A78FCD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBF05C51AC4BD3C00A78FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBF05D91AC4BD4900A78FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBF05E71AC4BD4A00A78FCD /* QuickDraw WatchKit App.app in Resources */,
+				FFBF05E31AC4BD4900A78FCD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBF05E41AC4BD4A00A78FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBF05EF1AC4BD4A00A78FCD /* Interface.storyboard in Resources */,
+				FFBF05F11AC4BD4A00A78FCD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFBF05AA1AC4BD3C00A78FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBF05BA1AC4BD3C00A78FCD /* ViewController.m in Sources */,
+				FFBF05B71AC4BD3C00A78FCD /* AppDelegate.m in Sources */,
+				FFBF05B41AC4BD3C00A78FCD /* main.m in Sources */,
+				FF8449921AC548C500B418A5 /* TimeTableCell.m in Sources */,
+				FF84498E1AC5438D00B418A5 /* ShareData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBF05C31AC4BD3C00A78FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBF05CE1AC4BD3C00A78FCD /* QuickDrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBF05D71AC4BD4900A78FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBF05E11AC4BD4900A78FCD /* InterfaceController.m in Sources */,
+				FF8449931AC548C500B418A5 /* TimeTableCell.m in Sources */,
+				FF84498F1AC5438D00B418A5 /* ShareData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFBF05C91AC4BD3C00A78FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBF05AD1AC4BD3C00A78FCD /* QuickDraw */;
+			targetProxy = FFBF05C81AC4BD3C00A78FCD /* PBXContainerItemProxy */;
+		};
+		FFBF05E91AC4BD4A00A78FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBF05E51AC4BD4A00A78FCD /* QuickDraw WatchKit App */;
+			targetProxy = FFBF05E81AC4BD4A00A78FCD /* PBXContainerItemProxy */;
+		};
+		FFBF05F31AC4BD4A00A78FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBF05DA1AC4BD4900A78FCD /* QuickDraw WatchKit Extension */;
+			targetProxy = FFBF05F21AC4BD4A00A78FCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFBF05BB1AC4BD3C00A78FCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBF05BC1AC4BD3C00A78FCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFBF05C01AC4BD3C00A78FCD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBF05C11AC4BD3C00A78FCD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FFBF05ED1AC4BD4A00A78FCD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBF05EE1AC4BD4A00A78FCD /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFBF05CF1AC4BD3C00A78FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFBF05D01AC4BD3C00A78FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFBF05D21AC4BD3C00A78FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QuickDraw/QuickDraw.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = QuickDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FFBF05D31AC4BD3C00A78FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QuickDraw/QuickDraw.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = QuickDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FFBF05D51AC4BD3C00A78FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuickDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickDraw.app/QuickDraw";
+			};
+			name = Debug;
+		};
+		FFBF05D61AC4BD3C00A78FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuickDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickDraw.app/QuickDraw";
+			};
+			name = Release;
+		};
+		FFBF05F61AC4BD4A00A78FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = QuickDraw_WatchKit_Extension;
+				INFOPLIST_FILE = "QuickDraw WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FFBF05F71AC4BD4A00A78FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = QuickDraw_WatchKit_Extension;
+				INFOPLIST_FILE = "QuickDraw WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FFBF05F91AC4BD4A00A78FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "QuickDraw WatchKit Extension/QuickDraw WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QuickDraw WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FFBF05FA1AC4BD4A00A78FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "QuickDraw WatchKit Extension/QuickDraw WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "QuickDraw WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFBF05A91AC4BD3C00A78FCD /* Build configuration list for PBXProject "QuickDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBF05CF1AC4BD3C00A78FCD /* Debug */,
+				FFBF05D01AC4BD3C00A78FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBF05D11AC4BD3C00A78FCD /* Build configuration list for PBXNativeTarget "QuickDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBF05D21AC4BD3C00A78FCD /* Debug */,
+				FFBF05D31AC4BD3C00A78FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBF05D41AC4BD3C00A78FCD /* Build configuration list for PBXNativeTarget "QuickDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBF05D51AC4BD3C00A78FCD /* Debug */,
+				FFBF05D61AC4BD3C00A78FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBF05F51AC4BD4A00A78FCD /* Build configuration list for PBXNativeTarget "QuickDraw WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBF05F61AC4BD4A00A78FCD /* Debug */,
+				FFBF05F71AC4BD4A00A78FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBF05F81AC4BD4A00A78FCD /* Build configuration list for PBXNativeTarget "QuickDraw WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBF05F91AC4BD4A00A78FCD /* Debug */,
+				FFBF05FA1AC4BD4A00A78FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFBF05A61AC4BD3C00A78FCD /* Project object */;
+}
